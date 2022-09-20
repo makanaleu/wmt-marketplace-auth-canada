@@ -1,16 +1,16 @@
-# wmt-marketplace-auth
+# wmt-marketplace-auth-canada
 
-![npm](https://img.shields.io/npm/v/wmt-marketplace-auth.svg) ![license](https://img.shields.io/npm/l/wmt-marketplace-auth.svg) ![github-issues](https://img.shields.io/github/issues/makanaleu/wmt-marketplace-auth.svg)
+![npm](https://img.shields.io/npm/v/wmt-marketplace-auth-canada.svg) ![license](https://img.shields.io/npm/l/wmt-marketplace-auth-canada.svg) ![github-issues](https://img.shields.io/github/issues/makanaleu/wmt-marketplace-auth-canada.svg)
 
 Generate the authentication headers required by Walmart Marketplace API.
 
-![nodei.co](https://nodei.co/npm/wmt-marketplace-auth.png?downloads=true&downloadRank=true&stars=true)
+![nodei.co](https://nodei.co/npm/wmt-marketplace-auth-canada.png?downloads=true&downloadRank=true&stars=true)
 
-![stars](https://img.shields.io/github/stars/makanaleu/wmt-marketplace-auth.svg)
-![forks](https://img.shields.io/github/forks/makanaleu/wmt-marketplace-auth.svg)
+![stars](https://img.shields.io/github/stars/makanaleu/wmt-marketplace-auth-canada.svg)
+![forks](https://img.shields.io/github/forks/makanaleu/wmt-marketplace-auth-canada.svg)
 
-![](https://david-dm.org/makanaleu/wmt-marketplace-auth/status.svg)
-![](https://david-dm.org/makanaleu/wmt-marketplace-auth/dev-status.svg)
+![](https://david-dm.org/makanaleu/wmt-marketplace-auth-canada/status.svg)
+![](https://david-dm.org/makanaleu/wmt-marketplace-auth-canada/dev-status.svg)
 
 ## Features
 
@@ -24,7 +24,7 @@ Generate the authentication headers required by Walmart Marketplace API.
 Set the custom headers, then use `Authenticate.sign()` for the specified request.
 
 ```javascript
-import { Authenticate } from 'wmt-marketplace-auth';
+import { Authenticate } from 'wmt-marketplace-auth-canada';
 
 let headers = new Authenticate.Custom;
 headers.setCorrelationId('1234hfvgtr');
@@ -74,7 +74,7 @@ headers.setTimestamp(1523287838530);
 
 ## Install
 
-`npm install --save wmt-marketplace-auth`
+`npm install --save wmt-marketplace-auth-canada`
 
 ## Scripts
 
